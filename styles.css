@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*hOME*/
+.Home{
+    background-image: url("./Image/drew-coffman-1872.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+.NavBar{
+    padding: 20px;
+    margin: 20px;
+}
+.Navbar-logo{
+    width: 10%;
+    float: left;
+    
+}
+.Navbar-logo img{
+    width: 100%;
+    
+}
+.Navbar-Links{
+    float: right;
+}
+.Navbar-Links a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px;
+}
+.Home-Text{
+    text-align: center;
+    color: white;
+    margin: 30px;
+    padding: 30px;
+    
+}
+
+.Home-Text h1{
+    margin:20px;
+    font-size: 55px;
+    font-weight: bold;
+    font-family: "Alegreya", serif;
+
+}
+.Home-Text p{
+    font-family:"Alegreya", serif;
+    font-size: 24px;
+    padding: 10px;
+}
+
+.btn{
+margin: 20px;
+padding: 10px;
+color: white;
+font-size: 14px;
+padding: 10px 17px;
+}
+
+.btn1{
+background-color:  #8e7754;
+border: #8e7754 solid 2px;
+}
+
+.bt2{
+    
+background-color: transparent;
+border: #ffffff solid 2px;
+border-radius: 5px;
+}
+
+/* about */
+.About{
+    margin: 40px;
+    padding: 20px;
+
+}
+
+.About img{
+    width: 40%;
+    float: left;
+
+    
+
+}
+.aboutText{
+    margin: 30px;
+    padding: 15px;
+    width: 50%;
+    float: left;
+}
+.aboutText h2{
+    
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+.aboutText ul{
+    
+}
+.aboutText li{
+    padding: 20px;
+}
+
+
+/* location */
+.Location{
+    margin: 30px;
+    padding: 20px;
+    background: #f8f8f8;
+}
+.Location-Text{
+float:left;
+width: 40%;
+margin: 5%;
+
+}
+.Location-Text h2{
+margin: 30px
+}
+.Location-Text p{
+    margin:30px ;
+    color: #686868;
+}
+.locaton-img{
+width: 40%;
+float: right;
+}
+.locaton-img img{
+    width: 100%;
+}
+
+.ourBaking{
+
+    margin: 5px;
+    padding: 15px;
+}
+.Bakery_name{
+    font-size: 60px;
+    /* border: salmon solid 2px; */
+}
+
+.OurBaking_text{
+    text-align: center;
+    color: rgb(8, 7, 7);
+}
+.BakingGallaryMember{
+
+width: 31%;
+float: left;
+text-align: center;
+margin: 10px;
+
+}
+.BakingGallaryMember img{
+    width: 100%;
+}
+.clear-fix{
+    clear: both;;
+}
+
+/* Contact Information */
