@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: "Alegreya", serif;
 }
 
 /*hOME*/
@@ -91,17 +92,21 @@ border-radius: 5px;
     padding: 15px;
     width: 50%;
     float: left;
+    color: #686868;
 }
 .aboutText h2{
     
     padding-bottom: 20px;
     font-weight: bold;
+    font-size: 32px;
+    color: black;
 }
 .aboutText ul{
-    
+    color: #686868;
 }
 .aboutText li{
     padding: 20px;
+    color: #686868;
 }
 
 
@@ -116,9 +121,11 @@ float:left;
 width: 40%;
 margin: 5%;
 
+
 }
 .Location-Text h2{
-margin: 30px
+margin: 30px;
+font-size: 32px;
 }
 .Location-Text p{
     margin:30px ;
@@ -146,13 +153,20 @@ float: right;
     text-align: center;
     color: rgb(8, 7, 7);
 }
+.ourBaking h2{
+    font-size: 30px;
+}
 .BakingGallaryMember{
 
 width: 31%;
 float: left;
 text-align: center;
 margin: 10px;
+color: #686868;
 
+}
+.BakingGallaryMember h3{
+    color: black;
 }
 .BakingGallaryMember img{
     width: 100%;
