@@ -1,7 +1,9 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: "Alegreya", serif;
+
 }
 
 /*hOME*/
@@ -11,9 +13,13 @@
     background-position: center center;
     height: 100vh;
 }
-.NavBar{
-    padding: 20px;
-    margin: 20px;
+.layer{
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.Home .NavBar{
+    padding:20px;
+    
 }
 .Navbar-logo{
     width: 10%;
@@ -35,7 +41,7 @@
 .Home-Text{
     text-align: center;
     color: white;
-    margin: 30px;
+    margin: auto;
     padding: 30px;
     
 }
@@ -76,23 +82,27 @@ border-radius: 5px;
 /* about */
 .About{
     margin: 40px;
-    padding: 20px;
+    padding: 20px; 
+
 
 }
 
-.About img{
+.Aboutimg{
     width: 40%;
-    float: left;
-
+    background-color: #f8f8f8;
     
-
+}
+.Aboutimg img{
+    width: 100%;
+    float: left;
 }
 .aboutText{
-    margin: 30px;
-    padding: 15px;
+    
+    margin: auto;
     width: 50%;
-    float: left;
+    float: right;
     color: #686868;
+    
 }
 .aboutText h2{
     
@@ -103,6 +113,7 @@ border-radius: 5px;
 }
 .aboutText ul{
     color: #686868;
+    list-style: none;
 }
 .aboutText li{
     padding: 20px;
@@ -121,7 +132,6 @@ float:left;
 width: 40%;
 margin: 5%;
 
-
 }
 .Location-Text h2{
 margin: 30px;
@@ -139,40 +149,161 @@ float: right;
     width: 100%;
 }
 
-.ourBaking{
-
-    margin: 5px;
-    padding: 15px;
-}
-.Bakery_name{
-    font-size: 60px;
-    /* border: salmon solid 2px; */
-}
-
 .OurBaking_text{
     text-align: center;
     color: rgb(8, 7, 7);
+    padding-bottom: 20px;
 }
 .ourBaking h2{
     font-size: 30px;
 }
+.container{
+    width: 80%;
+    margin: auto;
+    
+}
 .BakingGallaryMember{
 
-width: 31%;
+width: 33.33333333%;
 float: left;
 text-align: center;
-margin: 10px;
 color: #686868;
 
+}
+.BakingGallaryMember img{
+    width: 90%;
+}
+.bakerytext{
+    width: 90%;
+    text-align: center;
 }
 .BakingGallaryMember h3{
     color: black;
 }
-.BakingGallaryMember img{
-    width: 100%;
-}
+
 .clear-fix{
     clear: both;;
 }
 
 /* Contact Information */
+.Contact-info{
+    background: #f8f8f8;
+    padding: 30px;
+    margin: 40px;
+}
+
+.containerInfo{
+    /* background-color: rgb(43, 34, 221); */
+    padding: 30px ;
+    margin: auto;
+    width: 80%;
+}
+.contactText{
+    float: left;
+    width: 50%;
+}
+.contactText h2{
+    font-weight: 100;
+}
+.contactText p{
+    padding: 20px 15px ;
+
+}
+.contactText ol{
+    padding:20px;
+}
+.contactText li{
+    padding: 20px;
+    list-style: none;
+}
+.LocationMap{
+    float: right;
+}
+.footer{
+    background-color:rgb(70, 68, 68);
+    color: #969696;
+    padding: 20px;
+
+    
+}
+.container_footer{
+    width: 90%;
+    margin: auto;
+
+}
+.sections{
+    float: left;
+    width: 25%;
+    padding: 20px;
+}
+
+.inner h3{
+    color: #f8f8f8;
+    font-weight: 100;
+    padding: 20px;
+    font-size: 18px;
+}
+.inner p{
+    color: #969696;
+    font-size: 16px;
+    padding: 20px;
+}
+
+/* .Backcondetails{
+    background-image: url(./Image/contact-details-map.png);
+} */
+
+.sectionList{
+    color: #969696;
+    font-size: 16px;
+    text-align: center;
+
+}
+.sectionList h3{
+    color:#ffffff;
+    padding: 20px;
+}
+.sectionList li{
+    list-style: none;
+    padding: 10px;
+}
+.sectionList li::before{
+    content: "\00BB"; 
+}
+.sectionList hr{
+    border-top: 0.5px solid rgb(255, 255, 255,0.1)
+}
+
+.footerlast{
+    background-color: #686868;
+    
+}
+.footerlogo{
+
+    width: 70%;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+.footerlast p{
+    padding: 20px;
+    font-size: larger;
+    text-align: center;
+}
+.footelinks{
+    margin: auto;
+    width: 20%;
+    
+    
+}
+.links{
+    float: left;
+    margin: auto;
+    padding: 40px;
+}
+@media screen and (min-width:0px) and(max-width:599px) {
+    body{
+        background-color: #8e7754;
+    }
+    
+}
