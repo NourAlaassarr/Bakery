@@ -1,4 +1,3 @@
-![image](https://github.com/NourAlaassarr/Bakery/assets/104293377/57176d96-aabe-4b30-95f9-b87c94dda741)![image](https://github.com/NourAlaassarr/Bakery/assets/104293377/4fd593d7-45fc-41ab-99df-7077f0827725)
 # Family Bakery Website
 
 Welcome to the Family Bakery Website repository! This delightful website is crafted with love using HTML and CSS, showcasing the warmth and goodness of a family-run bakery. Whether you're a pastry enthusiast, a bread lover, or someone with a sweet tooth, our website is designed to evoke the cozy charm of a family kitchen.
