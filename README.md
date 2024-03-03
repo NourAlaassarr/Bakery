@@ -7,7 +7,7 @@ Welcome to the Family Bakery Website repository! This delightful website is craf
 ![location](https://github.com/NourAlaassarr/Bakery/assets/104293377/9add34fa-7638-452a-bb35-ac3d654c9031)
 ![baking](https://github.com/NourAlaassarr/Bakery/assets/104293377/6822d1c9-03d1-4aa7-b9ea-6df26f467cf3)
 ![contacinfo](https://github.com/NourAlaassarr/Bakery/assets/104293377/6cee7a16-eb02-4542-b027-603293827959)
-![footer](https://github.com/NourAlaassarr/Bakery/assets/104293377/7b9ae1e5-7eab-4c81-b71f-3bf0bdd5114d)
+
 
 ## How to Use:
 
